@@ -1,0 +1,143 @@
+body{
+    background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    margin: 0%;
+padding: 0%;
+}
+
+
+ 
+
+
+a{
+    text-decoration:none;
+    color: white;
+}
+.image{
+    width: 100%;
+}
+.edit-image{
+    margin-left: 0%;
+    padding-left: 0%;
+ }
+.edit-courses{
+    font-size: 1500%;
+    color: white;
+    font-weight: 500;
+
+}
+.photo{
+    height:300px;
+    background-image:url("webdev3.png");
+    background-position-x: center;
+    
+    
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.imgedit{
+    width: 20%;
+    padding-left: 8%;
+    display:inline-block;
+    margin-left: 1%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-right: -4%;
+}
+#FB{
+    color: white;
+}
+.lol{
+    color: white;
+    }
+
+.ph{
+    height: 300px;
+}
+
+
+
+
+
+.image1 {
+    background-image: url("photo1.jpg");
+   
+}
+.image2{
+    background-image: url("photo2.png");
+    
+}
+.image3{
+    
+    background-image: url("photo3.png");
+   
+}
+.image4{
+    background-image: url("photo4.png");
+   
+}
+.image5{
+    background-image: url("photo5.png");
+
+}
+.image6{
+    background-image: url("photo6.png");
+   
+}
+.image7{
+    background-image: url("photo7.jpg");
+    
+}
+.image8{
+    background-image: url("photo8.jpg");
+    
+}
+.image9{
+background-image: url("photo.png");
+
+}
+.ttimg{
+
+    margin:2%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display:flex;
+    justify-content:center;
+}
+.burl{
+    display: none;
+}
+
+.move{
+    display: flex;
+    justify-content:center ;
+}.bg-co{
+    color: red, ;
+}
+.commun:hover{
+    color: red!important ;
+
+}
+
+
+
+
+
+
+
+.commun{
+    font-size: 35px;
+}
+
+
+
+

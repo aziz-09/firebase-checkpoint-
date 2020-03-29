@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#"><img src="css/section2GMCLogo.png" width="87px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link font-weight-bold commun" href="index.HTML" style="color: white;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold commun " href="courses.HTML" style="color: white;">courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold commun " href="contact.HTML" style="color: white;" style="font-size: large;">contact</a>
+            </li>
+            
+          </ul>   
+        </div>
+      </nav>
+         <div>
+             <center>
+                 <h1 class="photo edit-courses">courses</h1>
+                 <br>
+                 <div id="ex1" class="modal">
+                    <p>This is GoMyCode Track.
+                        <br>
+                        Each Track has his own goal.
+                        <br>
+                        By adopting this track,you chose your own goal.
+                    </p>
+                    <a href="#" rel="modal:close">Close</a>
+                  </div>
+                 
+                  </div>
+                <div class="row">
+                   
+                    <div class="image1 ttimg col-xs-12 col-md-3  ">
+                      <a href="#ex1" rel="modal:open">
+                        <button class="burl "> view more
+
+                        </button></a></div>
+                
+                  
+                    <div class="image2 ttimg col-xs-12 col-md-3  ">
+                      <a href="#ex1" rel="modal:open">
+                        <button class="burl "> view more </button>
+                      </a></div>
+                  
+                
+                    <div class="image3 ttimg col-xs-12 col-md-3 ">
+                      <a href="#ex1" rel="modal:open">
+                        <button class="burl"> view more
+
+                        </button></a></div>
+                  
+                </div>
+                <div class="row">
+                    <div class="image4 ttimg col-xs-12 col-md-3 "><a href="#ex1" rel="modal:open"><button class="burl"> view more</button></a></a></div>
+                    <div class="image5 ttimg col-xs-12 col-md-3 "><a href="#ex1" rel="modal:open"><button class="burl"> view more</button></a></div>
+                    <div class="image6 ttimg col-xs-12 col-md-3 "><a href="#ex1" rel="modal:open"><button class="burl"> view more</button></a></div>
+                </div>
+                <div class="row">
+                    <div class="image7 ttimg col-xs-12  col-md-3  "><a href="#ex1" rel="modal:open"><button class="burl"> view more</button></a></div>
+                    <div class="image8 ttimg col-xs-12  col-md-3  "><a href="#ex1" rel="modal:open"><button class="burl"> view more</button></a></div>
+                    <div class="image9 ttimg col-xs-12  col-md-3  "><a href="#ex1" rel="modal:open"><button class="burl"> view more</button></a></div>
+                </div>
+                <div class="move">
+                 <h2 id="FB">Feedback</h2>
+                 <br> <br>
+                
+                 <form>
+                     <button id="bold" onclick="makebold()" type="button" >B</button>
+                     <button id="italic" onclick="makeitalic()" type="button">I</button>
+                     <button id="under" onclick="makeunder()" type="button">underline</button>
+                     <select  onchange="changeFontSize(this)"  >
+                         <option  value="20" >20px</option>
+                         <option  value="30" >30px</option>
+                         <option  value="40" >40px</option>
+                         
+                         
+                     </select>
+                     <select onchange="changeFontFamily(this)">
+                         <option  value="arial">arial</option>
+                         <option   value="futura">futura</option>
+                         <option value="Verdana">Verdana</option>
+                     </select>
+                     <br><br>
+                     <textarea cols="20" rows="2" id="txt"></textarea>
+                    </form>
+                </div>
+                     
+
+              
+                 
+
+
+
+
+
+
+
+             </center>
+            </body>
+         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        <script src="js/main.js"></script>
+
+             </html>
+
+         
+
+
+
+
+
+
+
+
